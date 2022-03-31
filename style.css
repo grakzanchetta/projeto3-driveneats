@@ -140,6 +140,16 @@ ion-icon {
     overflow-x: scroll;
 }
 
+/* Hide scrollbar for Chrome, Safari and Opera */
+.secao-cardapio-prato-itens::-webkit-scrollbar {
+    display: none;
+   }
+   /* Hide scrollbar for IE, Edge and Firefox */
+   .secao-cardapio-prato-itens {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+   }
+
 .item-cardapio-prato {
     width: 172px;
     height: 216px;
