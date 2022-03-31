@@ -87,6 +87,30 @@ ion-icon {
     color: #FFFFFF;
 }
 
+.confirmation-button {
+    width: 353px;
+    height: 53px;
+    background: green;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;    
+}
+
+.confirmation-button h1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.018em;
+    color: #FFFFFF;
+}
+
 /* MENU */
 
 .menu {
@@ -122,8 +146,8 @@ ion-icon {
     background: #FFFFFF;
     box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25);
     border-radius: 9px;
-    box-sizing: border-box;
     margin-left: 19px;
+    border: 5px solid #ffffff;
 }
 
 .item-cardapio-prato img {
@@ -204,6 +228,7 @@ ion-icon {
     border-radius: 9px;
     box-sizing: border-box;
     margin-left: 19px;
+    border: 5px solid #ffffff;
 }
 
 .item-cardapio-bebida img {
@@ -270,7 +295,6 @@ ion-icon {
     margin-left: 19px;
 }
 
-
 .secao-cardapio-sobre-itens{
     display: flex;
     overflow-x: scroll;
@@ -284,6 +308,7 @@ ion-icon {
     border-radius: 9px;
     box-sizing: border-box;
     margin-left: 19px;
+    border: 5px solid #ffffff;
 }
 
 .item-cardapio-sobre img {

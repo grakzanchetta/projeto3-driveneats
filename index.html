@@ -19,31 +19,30 @@
 
     <div class="menu">
 
-
         <!--PRATOS-->
         <div class="secao-cardapio-prato">
             <h2>Primeiro, seu prato</h2>
             <div class="secao-cardapio-prato-itens">
-                <div class="item-cardapio-prato">
+                <div id="frango1" class="item-cardapio-prato" onclick="escolherPratoUm()">
                     <img src="files/frango_yin_yang 2.png">
                     <h3>Frango Yin Yang</h3>
                     <h4>Um pouco de batata, um pouco de salada</h4>
                     <h5>R$<span class="valor-item-prato">14,90</span></h5>
-                    <ion-icon name="checkmark-circle" id="prato-icon-1"></ion-icon>
+                    <ion-icon id="iconFrango1" name="checkmark-circle" id="prato-icon-1"></ion-icon>
                 </div>
-                <div class="item-cardapio-prato">
+                <div id="frango2" class="item-cardapio-prato" onclick="escolherPratoDois()">
                     <img src="files/frango_yin_yang 2.png">
                     <h3>Frango Yin Yang</h3>
                     <h4>Um pouco de batata, um pouco de salada</h4>
                     <h5>R$<span class="valor-item-prato">10,90</span></h5>
-                    <ion-icon name="checkmark-circle" id="prato-icon-2"></ion-icon>
+                    <ion-icon id="iconFrango2"name="checkmark-circle" id="prato-icon-2"></ion-icon>
                 </div>
-                <div class="item-cardapio-prato">
+                <div id="frango3" class="item-cardapio-prato" onclick="escolherPratoTres()">
                     <img src="files/frango_yin_yang 2.png">
                     <h3>Frango Yin Yang</h3>
                     <h4>Um pouco de batata, um pouco de salada</h4>
                     <h5>R$<span class="valor-item-prato">11,90</span></h5>
-                    <ion-icon name="checkmark-circle" id="prato-icon-3"></ion-icon>
+                    <ion-icon id="iconFrango3" name="checkmark-circle" id="prato-icon-3"></ion-icon>
                 </div>
             </div>
         </div>
@@ -52,26 +51,26 @@
         <div class="secao-cardapio-bebida">
             <h2>Agora, sua bebida</h2>
             <div class="secao-cardapio-bebida-itens">
-                <div class="item-cardapio-bebida">
+                <div id="coca1" class="item-cardapio-bebida" onclick="escolherBebidaUm()">
                     <img src="files/coquinha_gelada 1.png">
                     <h3>Coquinha Gelada</h3>
                     <h4>Uma coca gelada.</h4>
                     <h5>R$<span class="valor-item-bebida">4,90</span></h5>
-                    <ion-icon name="checkmark-circle" id="bebida-icon-1"></ion-icon>
+                    <ion-icon id="iconCoca1" name="checkmark-circle" id="bebida-icon-1"></ion-icon>
                 </div>
-                <div class="item-cardapio-bebida">
+                <div id="coca2" class="item-cardapio-bebida" onclick="escolherBebidaDois()">
                     <img src="files/coquinha_gelada 1.png">
                     <h3>Coquinha Gelada</h3>
                     <h4>Uma coca gelada</h4>
                     <h5>R$<span class="valor-item-bebida">3,50</span></h5>
-                    <ion-icon name="checkmark-circle" id="bebida-icon-2"></ion-icon>
+                    <ion-icon id="iconCoca2" name="checkmark-circle" id="bebida-icon-2"></ion-icon>
                 </div>
-                <div class="item-cardapio-bebida">
+                <div id="coca3" class="item-cardapio-bebida" onclick="escolherBebidaTres()">
                     <img src="files/coquinha_gelada 1.png">
                     <h3>Coqunha Gelada</h3>
                     <h4>A ultima do deserto </h4>
                     <h5>R$<span class="valor-item-bebida">150,90</span></h5>
-                    <ion-icon name="checkmark-circle" id="bebida-icon-3"></ion-icon>
+                    <ion-icon id="iconCoca3" name="checkmark-circle" id="bebida-icon-3"></ion-icon>
                 </div>
             </div>
         </div>
@@ -80,38 +79,37 @@
         <div class="secao-cardapio-sobre">
             <h2>Por fim, sua sobremesa</h2>
             <div class="secao-cardapio-sobre-itens">
-                <div class="item-cardapio-sobre">
+                <div id="pudim1" class="item-cardapio-sobre" onclick="escolherSobreUm()">
                     <img src="files/pudim 2.png">
                     <h3>Pudim</h3>
                     <h4>Apenas Pudim</h4>
                     <h5>R$<span class="valor-item-sobre">3,00</span></h5>
-                    <ion-icon name="checkmark-circle" id="sobre-icon-1"></ion-icon>
+                    <ion-icon id="iconPudim1" name="checkmark-circle" id="sobre-icon-1"></ion-icon>
                 </div>
-                <div class="item-cardapio-sobre">
+                <div id="pudim2" class="item-cardapio-sobre" onclick="escolherSobreDois()">
                     <img src="files/pudim 2.png">
                     <h3>Pudim</h3>
                     <h4>Apenas Pudim</h4>
                     <h5>R$<span class="valor-item-sobre">2,50</span></h5>
-                    <ion-icon name="checkmark-circle" id="sobre-icon-2"></ion-icon>
+                    <ion-icon id="iconPudim2" name="checkmark-circle" id="sobre-icon-2"></ion-icon>
                 </div>
-                <div class="item-cardapio-sobre">
+                <div id="pudim3" class="item-cardapio-sobre" onclick="escolherSobreTres()">
                     <img src="files/pudim 2.png">
                     <h3>Pudim</h3>
                     <h4>Apenas Pudim</h4>
                     <h5>R$<span class="valor-item-sobre">5,90</span></h5>
-                    <ion-icon name="checkmark-circle" id="sobre-icon-3"></ion-icon>
+                    <ion-icon id="iconPudim3" name="checkmark-circle" id="sobre-icon-3"></ion-icon>
                 </div>
             </div>
         </div>
-
-
-
     </div>
 
     <div class="rodape-fixo">
-        <div class="button">
-            <h1>Selecione os 3 itens para fechar o pedido</h1>
+        <div id="pedidoNaoFeito" class="button">
+            <h1>Selecione os itens para fechar o pedido</h1>
         </div>
+        <div id="pedidoFeito" class="confirmation-button" onclick="wpp()">
+            <h1>Fechar pedido</h1>
     </div>
 
 
