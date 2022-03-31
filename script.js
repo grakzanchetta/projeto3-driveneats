@@ -8,6 +8,11 @@ let valorPrato = 0;
 let valorBebida = 0;
 let valorSobremesa = 0;
 
+/* QUAL PRATO ESCOLHIDO */
+let tipoPrato = 0;
+let tipoBebida = 0;
+let tipoSobremesa = 0; 
+
 /* FUNCÃO PRA INVERTER OS BOTÕES */
 function habilitarBotao (){
 if ((prato === 1) && (bebida ===1) && (sobremesa ===1)){
@@ -26,6 +31,7 @@ function escolherPratoUm (){
     document.getElementById("iconFrango3").style.display = "none";
     prato = 1;
     valorPrato = 14.90;
+    tipoPrato = "Frango 1";
     habilitarBotao();
 }
 
@@ -38,6 +44,7 @@ function escolherPratoDois (){
     document.getElementById("iconFrango3").style.display = "none";
     prato = 1;
     valorPrato = 10.90;
+    tipoPrato = "Frango 2";
     habilitarBotao();
 }
 
@@ -50,6 +57,7 @@ function escolherPratoTres (){
     document.getElementById("iconFrango3").style.display = "flex";
     prato = 1;
     valorPrato = 11.90;
+    tipoPrato = "Frango 3";
     habilitarBotao();
 }
 
@@ -63,6 +71,7 @@ function escolherBebidaUm (){
     document.getElementById("iconCoca3").style.display = "none";
     bebida = 1;
     valorBebida = 4.90;
+    tipoBebida = "Coca 1";
     habilitarBotao();
 }
 
@@ -75,6 +84,7 @@ function escolherBebidaDois (){
     document.getElementById("iconCoca3").style.display = "none";
     bebida = 1;
     valorBebida = 3.50;
+    tipoBebida = "Coca 2";
     habilitarBotao();
 }
 
@@ -87,6 +97,7 @@ function escolherBebidaTres (){
     document.getElementById("iconCoca3").style.display = "flex";
     bebida = 1;
     valorBebida = 150.90;
+    tipoBebida = "Coca 3";
     habilitarBotao();
 }
 
@@ -100,6 +111,7 @@ function escolherSobreUm (){
     document.getElementById("iconPudim3").style.display = "none";
     sobremesa = 1;
     valorSobremesa = 3.00;
+    tipoSobremesa = "Pudim 1"
     habilitarBotao();
 }
 
@@ -112,6 +124,7 @@ function escolherSobreDois (){
     document.getElementById("iconPudim3").style.display = "none";
     sobremesa = 1;
     valorSobremesa = 2.50;
+    tipoSobremesa = "Pudim 2"
     habilitarBotao();
 }
 
@@ -124,9 +137,15 @@ function escolherSobreTres (){
     document.getElementById("iconPudim3").style.display = "flex";
     sobremesa = 1;
     valorSobremesa = 5.90;
+    tipoSobremesa = "Pudim 3"
     habilitarBotao();
 }
 
 function wpp(){
-    alert("aehoo");
+    let somaPedido = valorPrato + valorBebida + valorSobremesa;
+    let somaAjustada = somaPedido.toFixed(2)
+    alert(tipoPrato);
+    alert(tipoBebida);
+    alert(tipoSobremesa);
+    alert(somaAjustada);
 }
