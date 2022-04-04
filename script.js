@@ -147,5 +147,5 @@ function wpp(){
     nome = prompt('Qual seu nome?');
     endereco = prompt('Qual seu endereço?');
     textoMensagem = `Olá, gostaria de fazer o pedido:\n-Prato: ${tipoPrato}\n-Bebida: ${tipoBebida}\n-Sobremesa:  ${tipoSobremesa}\nTotal: R$ ${somaAjustada}\n\nNome: ${nome}\nEndereço: ${endereco}`;
-    window.open(`https://wa.me/5511951737467?text=${encodeURIComponent(textoMensagem)}`);
+    window.open(`https://wa.me/5511990031866?text=${encodeURIComponent(textoMensagem)}`);
     }
